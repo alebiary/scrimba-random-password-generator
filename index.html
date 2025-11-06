@@ -99,14 +99,14 @@ function generatePasswords() {
 function copyFirstPassword() {
     let text = firstBtnEl.textContent
     if (text) {
-        navigator.clipboard.write(text)
+        navigator.clipboard.writeText(text)
     }
 }
 
 function copySecondPassword() {
     let text = secondBtnEl.textContent
     if (text) {
-        navigator.clipboard.write(text)
+        navigator.clipboard.writeText(text)
     }
 }
 
