@@ -100,6 +100,7 @@ function copyFirstPassword() {
     let text = firstBtnEl.textContent
     if (text) {
         navigator.clipboard.writeText(text)
+        alert("Password copied")
     }
 }
 
@@ -107,6 +108,7 @@ function copySecondPassword() {
     let text = secondBtnEl.textContent
     if (text) {
         navigator.clipboard.writeText(text)
+        alert("Password copied")
     }
 }
 
